@@ -1,0 +1,5 @@
+л# LibreOffice / OpenOffice lock files
+.~lock.*#
+
+# Microsoft Office lock files
+~$*
