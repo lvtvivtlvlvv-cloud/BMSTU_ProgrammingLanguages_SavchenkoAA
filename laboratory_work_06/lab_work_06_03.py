@@ -26,7 +26,7 @@ def f2(a):
     return ans + 1, mx
 
 a = []
-with open("in5.txt", "r") as f:
+with open("lab5_pb_in.txt", "r") as f:
     for s in f:
         if s.strip():
             a.append([int(x) for x in s.split()])
@@ -34,7 +34,7 @@ with open("in5.txt", "r") as f:
 k = f1(a)
 col, d = f2(a)
 
-with open("out5.txt", "w") as f:
+with open("lab5_pd_ou.txt", "w") as f:
     f.write("Матрица:\n")
     for r in a:
         for x in r:

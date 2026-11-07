@@ -1,4 +1,4 @@
-with open("in4.txt", "r") as f:
+with open("lab4_pb_in.txt", "r") as f:
     c = float(f.readline())
     a = [float(x) for x in f.readline().split()]
 
@@ -28,7 +28,7 @@ for x in a:
 
 a = b1 + b2
 
-with open("out4.txt", "w") as f:
+with open("lab4_pd_ou.txt", "w") as f:
     f.write(f"Меньше C: {k}\n")
     if idx != -1:
         f.write(f"Сумма: {s}\n")

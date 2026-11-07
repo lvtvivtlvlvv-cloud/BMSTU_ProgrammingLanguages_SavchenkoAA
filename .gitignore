@@ -1,5 +1,16 @@
-л# LibreOffice / OpenOffice lock files
-.~lock.*#
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
 
-# Microsoft Office lock files
+# LibreOffice / OpenOffice lock and temporary files
+.~lock.*
+*.odt#
 ~$*
+
+# OS / IDE
+.DS_Store
+.idea/
